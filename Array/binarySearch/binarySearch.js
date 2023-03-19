@@ -27,5 +27,5 @@ export const binarySearch = (sortedArr, value) => {
     return null;
 }
 
-console.log(binarySearch([1, 2, 3, 4, 5, 6], 4)); // 3
-console.log(binarySearch([1, 2, 3, 4, 5, 6], 8)); // null
+// console.log(binarySearch([1, 2, 3, 4, 5, 6], 4)); // 3
+// console.log(binarySearch([1, 2, 3, 4, 5, 6], 8)); // null
