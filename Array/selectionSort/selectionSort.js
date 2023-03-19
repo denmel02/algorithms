@@ -1,6 +1,12 @@
 import { getMinIndex } from "../min/index.js";
 import { getMaxIndex } from "../max/index.js";
 
+/**
+ * Sort array
+ * @param {number[]} arr array of numbers
+ * @param {boolean} [isDecrease=false] sorting direction
+ * @returns {number[]} sorted array
+ */
 export const selectionSort = (arr, isDecrease = false) => {
     const sortedArr = [];
 
