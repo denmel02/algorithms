@@ -1,1 +1,2 @@
-export * from './breadthFirstSearch.js';
+export * from './breadthFirstSearch/index.js';
+export * from './dijkstra/index.js'
